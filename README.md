@@ -32,15 +32,19 @@ This project demonstrates human pose estimation using MediaPipe and OpenCV. The 
 ## For Static Images:
 1. Replace the file paths in the IMAGE_FILES variable with your image or video file paths.
 2. Run the script
-3. Annotated images will be saved in the output_images/ folder.
+   ```bash
+   python pose_estimation.py
+4. Annotated images will be saved in the output_images/ folder.
 
 ## For Webcam Input:
 1. Ensure your webcam is connected.
 2. Run the script:
-3. The live feed with pose annotations will appear. Press Esc to exit.
+   ```bash
+   python pose_estimation.py
+4. The live feed with pose annotations will appear. Press Esc to exit.
 
 # Output
-
+![output](https://github.com/user-attachments/assets/24843ff3-3ce8-4dc5-8675-3b542f0bb7d0)
 
 # Future Enhancements
 1. Support for video input files.
